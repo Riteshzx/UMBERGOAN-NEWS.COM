@@ -1,64 +1,82 @@
-`<!DOCTYPE html>
+`
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Umbergoan News</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
     body {
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
       color: #131212;
     }
+
     header {
       background-color: #3f491a;
       color: rgb(241, 233, 233);
       padding: 20px;
       text-align: center;
     }
+
     nav {
       margin-top: 10px;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 10px;
       font-weight: bold;
     }
+
     .featured {
       padding: 20px;
       text-align: center;
       background-color: white;
     }
+
     .featured img {
       width: 15%;
       max-width: 100px;
       height: auto;
       border-radius: 10px;
     }
+
     .featured h2 {
       margin-top: 15px;
     }
+
     .articles {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 20px;
       padding: 20px;
     }
+
     article {
       background-color: white;
       padding: 15px;
       border-radius: 10px;
     }
+
     article img {
       width: 100%;
       border-radius: 8px;
     }
+
     footer {
       background-color: #1a1a1a;
       color: white;
@@ -66,24 +84,31 @@
       padding: 15px;
       margin-top: 20px;
     }
-    .h1{
+
+    .h1 {
       background-color: chocolate;
     }
 
     article source {
       width: 100%;
       border-radius: 8px;
-       margin-top: 15px;
-    }
-    
-     .featured H4 {
       margin-top: 15px;
     }
-    
 
+    .featured H4 {
+      margin-top: 15px;
+    }
 
+    .header.like {
+      text-align: right;
+      color: #e0dd30;
+      width: 100%;
+      height: 15px;
+      padding: 0%;
+    }
   </style>
 </head>
+
 <body>
   <header>
     <h1>🗞️ UMBERGOAN NEWS</h1>
@@ -93,84 +118,200 @@
       <a href="Sport.html">Sports</a>
       <a href="world.html">world</a>
       <a href="1ABOTUS.html">About</a>
+
     </nav>
+
+    <section class="Home">
+      <i class="fa-solid fa-house" width="25px" height="10px" alt="Home"></i>
+      <section class="like">
+        <i class="fa-solid fa-thumbs-up"></i>
+        <section class="comment">
+          <i class="fa-solid fa-comment"></i>
+          <section class="share">
+            <i class="fa-solid fa-square-share-nodes"></i>
+
+
   </header>
+
+
 
   <section class="featured">
     <img src="umbergaon.news.jpg" width="25px" height="10px" alt="Breaking News">
-    <h2>Breaking News:  World Reacts to Major News</h2>
+
+    <h2>Breaking News: World Reacts to Major News</h2>
     <p>Updates coming in from all corners of the globe as world events unfold.</p>
   </section>
 
   <section class="articles">
     <article>
       <img src="1first.PNG" alt="Politics News">
+
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
       <h3>फ्री बिजली की स्कीम बिहार तक पहुंची, चुनाव से पहले नीतीश ने किया 125 यूनिट फ्री देने का ऐलान</h3>
-      <p>बिहार में नीतीश सरकार ने विधानसभा चुनाव के पहले बड़ा फैसला लिया. सीएम नीतीश कुमार ने ऐलान किया कि बिहार में बिजली उपभोक्ताओं को 125 यूनिट बिजली मुफ्त ...</p>
+      <p>बिहार में नीतीश सरकार ने विधानसभा चुनाव के पहले बड़ा फैसला लिया. सीएम नीतीश कुमार ने ऐलान किया कि बिहार में
+        बिजली उपभोक्ताओं को 125 यूनिट बिजली मुफ्त ...</p>
     </article>
 
     <article>
       <img src="2second.PNG" alt="Sports News">
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
       <h3>दांत से चबाकर खा गया जिंदा सांप, यूपी के बांदा में युवक ने किया हैरान करने वाला कांड, फिर उसके बाद...</h3>
-      <p>बांदा में एक व्यक्ति ने शराब के नशे में घर में दिखे सांप को दांत से काटकर खा लिया. परिजनों ने उसे तुरंत अस्पताल पहुंचाया. डॉक्टरों ने बताया कि सांप जह...</p>
+      <p>बांदा में एक व्यक्ति ने शराब के नशे में घर में दिखे सांप को दांत से काटकर खा लिया. परिजनों ने उसे तुरंत अस्पताल
+        पहुंचाया. डॉक्टरों ने बताया कि सांप जह...</p>
     </article>
 
     <article>
       <img src="3third.PNG" alt="politics">
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
       <h3>ब्रह्मोस को मिलेगी नई ताकत... लखनऊ प्लांट में शुरू हुआ टाइटेनियम और सुपरएलॉय प्रोडक्शन </h3>
-      
-      <p>ब्रह्मोस की सफलता और लखनऊ का नया संयंत्र भारत के लिए गर्व की बात है. PTC इंडस्ट्रीज का टाइटेनियम प्लांट आत्मनिर्भरता की नई मिसाल है. ऑपरेशन सिंदूर ने ... </p>
+
+      <p>ब्रह्मोस की सफलता और लखनऊ का नया संयंत्र भारत के लिए गर्व की बात है. PTC इंडस्ट्रीज का टाइटेनियम प्लांट
+        आत्मनिर्भरता की नई मिसाल है. ऑपरेशन सिंदूर ने ... </p>
     </article>
+  </section>
+    <section class="articles">
+    <article>
+      <img src="1first.PNG" alt="Politics News">
+
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
+      <h3>फ्री बिजली की स्कीम बिहार तक पहुंची, चुनाव से पहले नीतीश ने किया 125 यूनिट फ्री देने का ऐलान</h3>
+      <p>बिहार में नीतीश सरकार ने विधानसभा चुनाव के पहले बड़ा फैसला लिया. सीएम नीतीश कुमार ने ऐलान किया कि बिहार में
+        बिजली उपभोक्ताओं को 125 यूनिट बिजली मुफ्त ...</p>
+    </article>
+
+  
+
+  <article>
+      <img src="3third.PNG" alt="politics">
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
+      <h3>ब्रह्मोस को मिलेगी नई ताकत... लखनऊ प्लांट में शुरू हुआ टाइटेनियम और सुपरएलॉय प्रोडक्शन </h3>
+
+      <p>ब्रह्मोस की सफलता और लखनऊ का नया संयंत्र भारत के लिए गर्व की बात है. PTC इंडस्ट्रीज का टाइटेनियम प्लांट
+        आत्मनिर्भरता की नई मिसाल है. ऑपरेशन सिंदूर ने ... </p>
+    </article>
+  </section>
+
+  <article>
+      <img src="3third.PNG" alt="politics">
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-thumbs-up"></i>
+
+      </button>
+
+      <button>
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </button>
+      <h3>ब्रह्मोस को मिलेगी नई ताकत... लखनऊ प्लांट में शुरू हुआ टाइटेनियम और सुपरएलॉय प्रोडक्शन </h3>
+
+      <p>ब्रह्मोस की सफलता और लखनऊ का नया संयंत्र भारत के लिए गर्व की बात है. PTC इंडस्ट्रीज का टाइटेनियम प्लांट
+        आत्मनिर्भरता की नई मिसाल है. ऑपरेशन सिंदूर ने ... </p>
+    </article>
+  </section>
+  
+
+  <article>
+    <section class="VIDEO">
+      <video controls poster="umbergaon.news.jpg" loop muted autoplay="" autoplay>
+        <source src="new.mp4" STYLE="BACKGROUND-COLOR:BLUE;">HADLING</h1>
+        <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
+      </video>
+  </article>
+
   </section>
   <article>
     <section class="VIDEO">
-     <video controls poster="umbergaon.news.jpg" loop muted autoplay=""autoplay>
-       <source src="new.mp4"     STYLE="BACKGROUND-COLOR:BLUE;" >HADLING</h1>
-       <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
-       </video>
-     </article>
-        
-      </section>
+      <video controls poster="umbergaon.news.jpg" loop muted autoplay="" autoplay>
+        <source src="new.mp4" STYLE="BACKGROUND-COLOR:BLUE;">HADLING</h1>
+        <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
+      </video>
+  </article>
+
+  </section>
   <article>
     <section class="VIDEO">
-     <video controls poster="umbergaon.news.jpg" loop muted autoplay=""autoplay>
-       <source src="new.mp4"     STYLE="BACKGROUND-COLOR:BLUE;" >HADLING</h1>
-       <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
-       </video>
-     </article>
+      <video controls poster="umbergaon.news.jpg" loop muted autoplay="" autoplay>
+        <source src="new.mp4" STYLE="BACKGROUND-COLOR:BLUE;">HADLING</h1>
+        <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
+      </video>
+  </article>
 
-      </section>
+  </section>
   <article>
     <section class="VIDEO">
-     <video controls poster="umbergaon.news.jpg" loop muted autoplay=""autoplay>
-       <source src="new.mp4"     STYLE="BACKGROUND-COLOR:BLUE;" >HADLING</h1>
-       <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
-       </video>
-     </article>
+      <video controls poster="umbergaon.news.jpg" loop muted autoplay="" autoplay>
+        <source src="new.mp4" STYLE="BACKGROUND-COLOR:BLUE;">HADLING</h1>
+        <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
+      </video>
+  </article>
 
-      </section>
+
+
+
+
+
   <article>
-    <section class="VIDEO">
-     <video controls poster="umbergaon.news.jpg" loop muted autoplay=""autoplay>
-       <source src="new.mp4"     STYLE="BACKGROUND-COLOR:BLUE;" >HADLING</h1>
-       <H4>Sarigam me Gandhi Jayanti Ka Din Laga Platis Ban</H4>
-       </video>
-     </article>
-         
 
 
 
-
-     
-     <article>
-     
-       
-
-     </article>
-</section>
+  </article>
+  </section>
 
   <footer>
     <p>© 2025 Umbergoan News . All rights reserved.</p>
   </footer>
 </body>
+
 </html>
